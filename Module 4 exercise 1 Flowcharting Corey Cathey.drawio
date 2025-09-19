@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Page-1" id="gh_WDDEC12RMz4oKS0j2">
+    <mxGraphModel dx="1219" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQGnH_kMOu2or1LtUoin-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-2" value="INPUT guess number between 1 and 100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="170" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-1" target="BQGnH_kMOu2or1LtUoin-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-4" target="BQGnH_kMOu2or1LtUoin-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-9" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQGnH_kMOu2or1LtUoin-8">
+          <mxGeometry x="-0.1186" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-4" value="Guess not correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="320" width="134" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-6" target="BQGnH_kMOu2or1LtUoin-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="508" />
+              <mxPoint x="750" y="508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-6" target="BQGnH_kMOu2or1LtUoin-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-6" value="guess too high?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="315" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-10" target="BQGnH_kMOu2or1LtUoin-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-10" value="output player wins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="675" />
+              <mxPoint x="581" y="675" />
+              <mxPoint x="581" y="730" />
+              <mxPoint x="840" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-11" value="guess higher number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-13" value="guess lower number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BQGnH_kMOu2or1LtUoin-4" target="BQGnH_kMOu2or1LtUoin-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGnH_kMOu2or1LtUoin-20" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
